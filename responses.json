@@ -1,0 +1,27 @@
+{
+    "success": true,
+    "message": {
+      "id": "647489fb80842bead21c50e5"
+    }
+  },
+
+  {
+    "message": {
+      "id": "64747f80737a6fafa0194525",
+      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODUzNTk2OTQsImV4cCI6MTY4NTQ0NjA5NH0.MS5TzHuyzr5-lTSbsdJ2ScAkUpGQI6Sz9NpoPb9VB4g"
+    },
+    "success": true
+  }
+
+  {
+    "success": false,
+    "message": "Not Authorized"
+  }
+  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODU0MjIxODYsImV4cCI6MTY4NTUwODU4Nn0.OQlVKjB_1Tj_fjqgsHHd6HdqvVEqgjnS5oxkLViDZzA
+{
+  "message": {
+    "id": "64747f80737a6fafa0194525",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODU0MjIxODYsImV4cCI6MTY4NTUwODU4Nn0.OQlVKjB_1Tj_fjqgsHHd6HdqvVEqgjnS5oxkLViDZzA"
+  },
+  "success": true
+}
