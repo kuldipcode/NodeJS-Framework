@@ -7,11 +7,11 @@ const radash = require('radash');
 const jsonlParser = require('stream-json/jsonl/Parser');
 const parser = new jsonlParser();
 let count = 0;
-router.post('/',async function(req, res){
+async function asyncMass(req, res){
    
     count ++;
     console.log(count)
-    const path_200kUsers = 'C:/projects/NodeJS-Framework/users_200000l.json';
+    const path_200kUsers = 'C:/projects/NodeJS-Framework/mass2ml.json';
     let started = Date.now()
     objectCounter = 0;
     objToInsert = [];
@@ -47,5 +47,6 @@ router.post('/',async function(req, res){
         console.log(err)
     }
     res.send(`${count}`)
-})
-module.exports = router;
+
+}
+asyncMass();

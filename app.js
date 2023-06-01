@@ -4,7 +4,6 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const {Kafka} = require('kafkajs');
-const massuserRoute = require('./routes/massusers');
 const usersRoute = require('./routes/users');
 const adminRoute = require('./routes/admin')
 const app = express();
@@ -22,8 +21,6 @@ app.get('/api',function(req, res){
     console.log(process.env.dbUrl)
     res.send('It Works')
 })
-
-app.use('/api/massuserUpload', massuserRoute);
 app.use('/api/user', usersRoute);
 app.use('/api/admin', adminRoute)
 
