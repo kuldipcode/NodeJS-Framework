@@ -11,7 +11,7 @@ async function asyncMass(req, res){
    
     count ++;
     console.log(count)
-    const path_200kUsers = 'C:/projects/NodeJS-Framework/mass2ml.json';
+    const path_200kUsers = 'C:\\projects\\Orchastrator-NodeJS\\mass2ml.json';
     let started = Date.now()
     objectCounter = 0;
     objToInsert = [];
@@ -46,7 +46,6 @@ async function asyncMass(req, res){
     } catch (err) {
         console.log(err)
     }
-    res.send(`${count}`)
 
 }
 asyncMass();
